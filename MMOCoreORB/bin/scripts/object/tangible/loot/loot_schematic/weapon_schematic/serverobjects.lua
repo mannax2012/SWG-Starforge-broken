@@ -1,6 +1,10 @@
 
 -- Server Objects
 
+--Lightsaber(Unstable)
+includeFile("tangible/loot/loot_schematic/weapon_schematic/melee_lightsaber_one_hand_unstable_schematic.lua")
+includeFile("tangible/loot/loot_schematic/weapon_schematic/melee_lightsaber_two_hand_unstable_schematic.lua")
+includeFile("tangible/loot/loot_schematic/weapon_schematic/melee_lightsaber_polearm_unstable_schematic.lua")
 
 -- Carbines
 includeFile("tangible/loot/loot_schematic/weapon_schematic/carbine_alliance_needler_schematic.lua")

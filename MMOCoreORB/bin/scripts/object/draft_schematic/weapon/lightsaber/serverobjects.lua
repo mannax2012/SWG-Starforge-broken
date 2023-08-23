@@ -43,7 +43,10 @@
 
 
 --Children folder includes
-
+-- custom
+includeFile("draft_schematic/weapon/lightsaber/lightsaber_polearm_unstable_gen4.lua")
+includeFile("draft_schematic/weapon/lightsaber/lightsaber_one_hand_unstable_gen4.lua")
+includeFile("draft_schematic/weapon/lightsaber/lightsaber_two_hand_unstable_gen4.lua")
 -- Server Objects
 includeFile("draft_schematic/weapon/lightsaber/lightsaber_one_hand_gen1.lua")
 includeFile("draft_schematic/weapon/lightsaber/lightsaber_one_hand_gen2.lua")

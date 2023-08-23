@@ -43,7 +43,8 @@
 
 
 --Children folder includes
-
+--custom
+includeFile("weapon/melee/sword/crafted_saber/sword_lightsaber_one_handed_unstable_gen4.lua")
 -- Server Objects
 includeFile("weapon/melee/sword/crafted_saber/sword_lightsaber_one_handed_gen1.lua")
 includeFile("weapon/melee/sword/crafted_saber/sword_lightsaber_one_handed_gen2.lua")

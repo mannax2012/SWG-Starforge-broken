@@ -1,6 +1,22 @@
 -- WEAPON SCHEMATICS
--- 
-
+----
+-- Unstable Sabers
+object_tangible_loot_loot_schematic_weapon_schematic_shared_melee_lightsaber_one_hand_unstable_schematic = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/lightsaber/shared_lightsaber_one_hand_unstable_schematic.iff"}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_weapon_schematic_shared_melee_lightsaber_one_hand_unstable_schematic,
+ "object/tangible/loot/loot_schematic/lightsaber/shared_lightsaber_one_hand_unstable_schematic.iff")
+----
+ object_tangible_loot_loot_schematic_weapon_schematic_shared_melee_lightsaber_two_hand_unstable_schematic = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/lightsaber/shared_lightsaber_two_hand_unstable_schematic.iff"}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_weapon_schematic_shared_melee_lightsaber_two_hand_unstable_schematic,
+ "object/tangible/loot/loot_schematic/lightsaber/shared_lightsaber_two_hand_unstable_schematic.iff")
+----
+ object_tangible_loot_loot_schematic_weapon_schematic_shared_melee_lightsaber_polearm_unstable_schematic = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/lightsaber/shared_lightsaber_polearm_unstable_schematic.iff"}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_weapon_schematic_shared_melee_lightsaber_polearm_unstable_schematic,
+ "object/tangible/loot/loot_schematic/lightsaber/shared_lightsaber_polearm_unstable_schematic.iff")
+----
+---- Stardust Weapons
 object_tangible_loot_loot_schematic_weapon_schematic_shared_carbine_alliance_needler_schematic = SharedTangibleObjectTemplate:new {
   clientTemplateFileName = "object/tangible/loot/loot_schematic/weapon_schematic/shared_carbine_alliance_needler_schematic.iff"
   
