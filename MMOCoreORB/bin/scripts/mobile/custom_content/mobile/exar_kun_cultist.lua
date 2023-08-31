@@ -5,7 +5,7 @@ exar_kun_cultist = Creature:new {
 	level = 250,
 	chanceHit = 0.8,
 	damageMin = 890,
-	damageMax = 1200,
+	damageMax = 1500,
 	baseXp = 8408,
 	baseHAM = 75000,
 	baseHAMmax = 95000,
@@ -39,9 +39,16 @@ exar_kun_cultist = Creature:new {
 			lootChance = 4200000,
 		},			
 	},
-	weapons = {"mixed_force_weapons"},
-	conversationTemplate = "",
-	attacks = merge(fencermid,swordsmanmid,tkamid,pikemanmaster,brawlermaster)
+	-- Primary and secondary weapon should be different types (rifle/carbine, carbine/pistol, rifle/unarmed, etc)
+  -- Unarmed should be put on secondary unless the mobile doesn't use weapons, in which case "unarmed" should be put primary and "none" as secondary
+  primaryWeapon = "force_sword",
+  secondaryWeapon = "pirate_weapons_light",
+  conversationTemplate = "",
+
+  -- primaryAttacks and secondaryAttacks should be separate skill groups specific to the weapon type listed in primaryWeapon and secondaryWeapon
+  -- Use merge() to merge groups in creatureskills.lua together. If a weapon is set to "none", set the attacks variable to empty brackets
+  primaryAttacks = merge(fencermaster,swordsmanmid,pikemanmaster,brawlermaster,marksmanmid),
+  secondaryAttacks = marksmanmid
 }
 
 CreatureTemplates:addCreatureTemplate(exar_kun_cultist, "exar_kun_cultist")
